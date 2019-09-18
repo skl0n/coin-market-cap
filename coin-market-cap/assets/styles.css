@@ -1,0 +1,87 @@
+#coin-market-cap .convert, #coin-market-cap .convert-history {
+	padding: 30px;
+	background: #ccc;
+}
+#coin-market-cap .convert-history {
+	margin-top: 20px;
+	text-align: center;
+}
+#coin-market-cap .switch {
+	text-align: center;
+	width: 13%;
+	line-height: 80px;
+}
+#coin-market-cap .switch .dashicons {
+	line-height: 80px;
+}
+#coin-market-cap .switch a {
+	text-decoration: none;
+	border-bottom: 0;
+}
+#coin-market-cap .switch a:active {
+	border:0;
+}
+.convert-input, .switch {
+	float: left;
+}
+.convert-input.right {
+	float: right;
+}
+.convert-input {
+	width: 250px;
+}
+.convert-input input[type="text"] {
+	width: 100%;
+	padding: 10px;
+}
+.convert-input input, .convert-input .select2-selection {
+	height: 40px;
+	border-radius: 0px;
+	vertical-align: baseline;
+}
+.select2-container {
+	height: 40px;
+	font-size: 19px;
+	width: 100%;
+}
+.convert-group .convert-input .select2-selection span {
+	padding: 10px;
+	height: 40px;
+	line-height: 20px;
+}
+.convert-group .convert-input .select2-selection .select2-selection__arrow {
+	height: 40px;
+}
+.clear {
+	clear: both;
+}
+.history {
+	margin-right: 40px;
+	white-space:nowrap;
+}
+.history:last-child {
+	margin-right: 0px;
+}
+
+
+@media screen and (max-width: 1300px) {
+	.convert-input {
+		width: 100%;
+	}
+	.select2-container {
+		width: 100%;
+	}
+	.inline {
+		display: inline-block;
+		text-align: center;
+		width: 49%;
+	}
+	.convert-group .convert-input .inline input {
+		width: 100%;
+	}
+	#coin-market-cap .switch {
+		width: 100%;
+		text-align: center;
+	}
+
+}
